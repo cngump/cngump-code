@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>objective-c</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>`urs</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-05-21T05:30:04Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>under release safely</string>
+			<key>lastUsed</key>
+			<date>2011-05-21T07:55:29Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-21T07:47:10Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+pbpaste | ~/Dropbox/TextExpander/shell/objc/objc_under_release_safelty.py</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>662CA6A0-365D-4DB9-8B5B-0406708703A7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`upr</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-05-21T05:30:04Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>under property</string>
+			<key>lastUsed</key>
+			<date>2011-05-21T07:54:23Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-21T07:53:17Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+pbpaste | ~/Dropbox/TextExpander/shell/objc/objc_under_property.py</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4623D077-198B-40E5-AAB1-5FC6F2E0F849</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`usy</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-05-20T12:26:13Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>under synthesize</string>
+			<key>lastUsed</key>
+			<date>2011-05-21T07:54:34Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-21T07:43:37Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/[\*;_]//g' | awk '{print "@synthesize " $NF " =  _"$NF  ";"}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>14</integer>
+			<key>uuidString</key>
+			<string>3686D001-55D9-43D1-96C7-3265C76A9C61</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`prs</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-05-19T10:32:48Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>RELEASE_SAFELY</string>
+			<key>lastUsed</key>
+			<date>2011-05-20T15:51:57Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-21T07:47:25Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/[\*;]//g' | awk '{print "    RELEASE_SAFELY( " $NF " );"}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>15</integer>
+			<key>uuidString</key>
+			<string>8EFBF230-1C24-4AF1-B691-8FBB7C8758CB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`psy</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-12-20T07:47:04Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>synthesize</string>
+			<key>lastUsed</key>
+			<date>2011-05-20T15:52:30Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-21T07:47:35Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/[\*;]//g' | awk '{print "@synthesize " $NF ";"}'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>18</integer>
+			<key>uuidString</key>
+			<string>540AE7A1-A780-46D7-9688-1E591F0B79E1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`pro</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-12-20T07:30:41Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>property readonly</string>
+			<key>lastUsed</key>
+			<date>2011-02-10T15:08:48Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-20T13:14:20Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/^[ 	]*\(.*\)[ 	]*$/@property (nonatomic, readonly)  \1/'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>7C8D90B1-5778-4BC4-B0E2-1ECDD3A5E5E9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`ppo</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-12-20T07:26:59Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>property retain outlet</string>
+			<key>lastUsed</key>
+			<date>2011-01-07T14:41:22Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-20T13:14:30Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/^[ 	]*\(.*\)[ 	]*$/@property (nonatomic, retain) IBOutlet \1/'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>B1392EBE-A8D3-417D-8176-C29434F05673</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`prt</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-12-20T07:26:25Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>property retain</string>
+			<key>lastUsed</key>
+			<date>2011-05-19T15:31:08Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-20T13:14:59Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/^[ 	]*\(.*\)[ 	]*$/@property (nonatomic, retain)  \1/'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>5A5218A0-B5B9-4020-8776-FA9973A41F8D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`ppa</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-12-20T07:11:04Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>property assign</string>
+			<key>lastUsed</key>
+			<date>2011-05-19T13:15:36Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-20T13:15:20Z</date>
+			<key>plainText</key>
+			<string>#! /bin/bash
+pbpaste | sed '/^[ 	]*$/d' | sed 's/^[ 	]*\(.*\)[ 	]*$/@property (nonatomic, assign)  \1/'</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>12</integer>
+			<key>uuidString</key>
+			<string>80A94911-0A2E-4CCD-A1C9-61CF23038AAC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>`act</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-09-14T14:34:58Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2011-05-16T01:23:04Z</date>
+			<key>modificationDate</key>
+			<date>2011-05-20T13:18:19Z</date>
+			<key>plainText</key>
+			<string>- (IBAction)%|:(id)sender;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>25</integer>
+			<key>uuidString</key>
+			<string>9E8C5F3A-9153-42F8-A205-1DEFCA68EC1D</string>
+		</dict>
+	</array>
+</dict>
+</plist>
